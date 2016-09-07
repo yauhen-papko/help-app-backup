@@ -20,12 +20,12 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_postmeta` WRITE;
 /*!40000 ALTER TABLE `wp_postmeta` DISABLE KEYS */;
-INSERT INTO `wp_postmeta` VALUES (1,2,'_wp_page_template','default'),(2,1,'_edit_lock','1472646272:1'),(3,1,'_edit_last','1'),(6,5,'_edit_last','1'),(7,5,'_edit_lock','1472646320:1');
+INSERT INTO `wp_postmeta` VALUES (1,2,'_wp_page_template','default'),(2,1,'_edit_lock','1472646272:1'),(3,1,'_edit_last','1'),(6,5,'_edit_last','1'),(7,5,'_edit_lock','1472646320:1'),(10,8,'_edit_last','1'),(11,8,'_edit_lock','1473182185:1'),(14,10,'_edit_last','1'),(15,10,'_edit_lock','1473182260:1'),(18,10,'_wp_trash_meta_status','publish'),(19,10,'_wp_trash_meta_time','1473182695'),(20,10,'_wp_desired_post_slug','hhhh'),(21,12,'_edit_last','1'),(22,12,'_edit_lock','1473238438:1'),(25,14,'_edit_last','1'),(28,14,'_edit_lock','1473238502:1');
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

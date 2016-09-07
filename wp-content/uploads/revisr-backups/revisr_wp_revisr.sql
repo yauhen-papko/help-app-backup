@@ -19,11 +19,12 @@ CREATE TABLE `wp_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
+INSERT INTO `wp_revisr` VALUES (1,'2016-08-31 12:27:52','Successfully backed up the database.','backup','admin'),(2,'2016-08-31 12:30:31','Successfully pushed 2 commits to origin/master.','push','admin'),(3,'2016-08-31 12:32:14','Successfully pushed 2 commits to origin/master.','push','admin');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
